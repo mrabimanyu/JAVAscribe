@@ -5,13 +5,15 @@
     <title>JS Variabel</title>
 </head>
 <body>
-   <p id="use_let"></p>
+   
+    <p id="use_let"></p>
+    <p id="use_let2"></p>
    <script>
     //use let
-    let x=10+10+10
-    let y=10+10+10
-
-    document.getElementById('use_let').innerHTML = (x+y);
+    let x="10"+10+10;
+    let y=10+10+"10";
+    document.getElementById('use_let').innerHTML = "the value of x if using var variable is: " + x;
+    document.getElementById('use_let2').innerHTML = "the value of y if using var variable is: " + y;
    </script>
 </body>
 </html>
