@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>js object</title>
+</head>
+<body>
+   <p id="demo"></p>
+   <script>
+    //create an object
+    const car = {
+        type:  "fiat",
+        model: "F500",
+        color: "white",
+        //cara 2
+        spesificarion: function() {
+            return "type: " + this.type + ", model: " + this.model + ", color: " + this.color;}
+    };
+    document.getElementById("demo").innerHTML= "the car spesification is " + car.spesificarion();
+    //cara 1
+    //document.getElementById("demo").innerHTML=
+    //"the car type is " + car.type + 
+    //" and the model is " + car.model + 
+    //" also the color is " + car.color;
+   </script>
+</body>
+</html>
